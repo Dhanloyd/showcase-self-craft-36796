@@ -5,6 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  base: "/showcase-self-craft-36796/", // ⚠️ important for GitHub Pages or subpath hosting
   server: {
     host: "::",
     port: 8080,
